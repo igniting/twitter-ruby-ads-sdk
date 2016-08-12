@@ -10,7 +10,8 @@ module TwitterAds
     ANALYTICS_MAP = {
       'TwitterAds::LineItem' => 'LINE_ITEM'.freeze,
       'TwitterAds::OrganicTweet' => 'ORGANIC_TWEET'.freeze,
-      'TwitterAds::Creative::PromotedTweet' => 'PROMOTED_TWEET'.freeze
+      'TwitterAds::Creative::PromotedTweet' => 'PROMOTED_TWEET'.freeze,
+      'TwitterAds::Campaign' => 'CAMPAIGN'.freeze
     }.freeze
 
     def self.included(klass)
